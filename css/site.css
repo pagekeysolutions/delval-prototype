@@ -80,13 +80,73 @@
 
 .overflow-hidden { overflow: hidden; }
 
+.site-name {
+  font-weight: bold;
+}
+
+.searchbar {
+  padding: 1em 0;
+}
 .searchbar input {
   width: 90%;
   margin: auto;
+  background-color: gray;
+  border: none;
+  color:white;
+  font-weight: bold;
+}
+.searchbar input::placeholder {
+  color: white;
 }
 
 
-.product-button {
-  width: 50%;
+.product-box {
+  padding-bottom: 3rem !important;
+}
+img.product-logo, .product-img-bottom {
+  width: 45%;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.product-img-wrap {
+  position: relative;
   margin: auto;
+  text-align: center;
+}
+.product-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.product-img-bottom {
+  width: 185px;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: 0.5em;
+}
+.product-img-top {
+  top: 52px;
+  width: 52.2px;
+  opacity: 0.95
+}
+
+.product-button {
+  border: 1px solid gray;
+  display: block;
+  margin: 0.5em auto;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  font-size: 2rem;
+  background-color: gray;
+}
+.product-button:hover {
+  border: 1px solid #607D8B;
+  background-color: #607D8B;
+}
+
+.order-button {
 }
