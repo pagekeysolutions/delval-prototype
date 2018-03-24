@@ -79,3 +79,14 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+
+.searchbar input {
+  width: 90%;
+  margin: auto;
+}
+
+
+.product-button {
+  width: 50%;
+  margin: auto;
+}
