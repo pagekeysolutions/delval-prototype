@@ -142,10 +142,12 @@ img.product-logo, .product-img-bottom {
   border-radius: 0.5em;
   font-size: 2rem;
   background-color: gray;
+  color: inherit;
 }
 .product-button:hover {
   border: 1px solid #607D8B;
   background-color: #607D8B;
+  text-decoration: none;
 }
 
 .order-button {
