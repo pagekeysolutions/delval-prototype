@@ -25,7 +25,8 @@ products = [
 ];
 
 $(document).ready(function() {
-  if ($_GET.length > 0) {
+  page = document.location.pathname.match(/[^\/]+$/)[0];
+  if (page == "details.html") {
     name = products[$_GET["p"] - 1]["name"]
     $("#product-name").text(name);
   }
