@@ -46,4 +46,11 @@ $(document).ready(function() {
       }
     });
   });
+  // Order Click dialog
+  $(".order-button").click(function() {
+    $("#order-dialog").fadeIn(500);
+  });
+  $("#order-dialog-close").click(function() {
+    $("#order-dialog").fadeOut(500);
+  });
 });
